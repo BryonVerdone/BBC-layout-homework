@@ -2,3 +2,73 @@
   margin: 0;
   box-sizing: border-box;
 }
+a {
+  text-decoration: none;
+  color: white;
+}
+ul {
+  padding: 0;
+  list-style: none;
+}
+/* 
+==========
+Header section
+==========
+*/
+.header {
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* clear: both; */
+}
+.logo-container {
+  display: inline-block;
+}
+.sign-in {
+  padding: 0.5rem;
+
+  display: inline-block;
+}
+.nav-list {
+  display: inline;
+}
+.nav-item {
+  padding: 0.5rem;
+  display: inline-block;
+  border-left: 1px solid white;
+}
+/* 
+==========
+Main section
+==========
+*/
+.main-l {
+  float: left;
+  width: 50%;
+  height: auto;
+  position: relative;
+}
+
+.main-r {
+  float: left;
+  width: 50%;
+  height: auto;
+}
+
+.img-grid {
+  float: left;
+  width: 50%;
+  position: relative;
+}
+img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.text-overlay {
+  color: white;
+  bottom: 0;
+  position: absolute;
+}
