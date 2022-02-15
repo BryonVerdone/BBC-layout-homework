@@ -2,3 +2,73 @@
   margin: 0;
   box-sizing: border-box;
 }
+a {
+  text-decoration: none;
+  color: white;
+}
+ul {
+  padding: 0;
+  list-style: none;
+}
+/* 
+==========
+Header section
+==========
+*/
+.header {
+  background: black;
+  color: white;
+  clear: both;
+}
+.logo-container {
+  float: left;
+}
+.sign-in {
+  float: left;
+  padding: 0.5rem;
+}
+.nav-list {
+  display: inline-block;
+}
+.nav-item {
+  padding: 0.5rem;
+  display: inline-block;
+  border-left: 1px solid white;
+}
+input {
+  float: right;
+}
+/* 
+==========
+Main section
+==========
+*/
+.main-l {
+  float: left;
+  width: 50%;
+  height: auto;
+  position: relative;
+}
+
+.main-r {
+  float: left;
+  width: 50%;
+  height: auto;
+}
+
+.img-grid {
+  float: left;
+  width: 50%;
+  position: relative;
+}
+img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.text-overlay {
+  padding: 1rem;
+  color: white;
+  bottom: 0;
+  position: absolute;
+}
