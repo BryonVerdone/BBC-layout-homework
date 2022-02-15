@@ -18,26 +18,25 @@ Header section
 .header {
   background: black;
   color: white;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  /* clear: both; */
+  clear: both;
 }
 .logo-container {
-  display: inline-block;
+  float: left;
 }
 .sign-in {
+  float: left;
   padding: 0.5rem;
-
-  display: inline-block;
 }
 .nav-list {
-  display: inline;
+  display: inline-block;
 }
 .nav-item {
   padding: 0.5rem;
   display: inline-block;
   border-left: 1px solid white;
+}
+input {
+  float: right;
 }
 /* 
 ==========
@@ -68,6 +67,7 @@ img {
 }
 
 .text-overlay {
+  padding: 1rem;
   color: white;
   bottom: 0;
   position: absolute;
