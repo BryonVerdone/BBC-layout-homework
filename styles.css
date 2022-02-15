@@ -46,14 +46,14 @@ Main section
 .main-l {
   float: left;
   width: 50%;
-  height: auto;
+  height: 100%;
   position: relative;
 }
 
 .main-r {
   float: left;
   width: 50%;
-  height: auto;
+  height: 100%;
 }
 
 .img-grid {
@@ -71,4 +71,19 @@ img {
   color: white;
   bottom: 0;
   position: absolute;
+  width: 100%;
+  height: auto;
+}
+/* 
+==========
+Main section
+==========
+*/
+.bottom-section {
+  width: 100%;
+}
+.bottom-card {
+  padding: 1rem;
+  float: left;
+  width: 33.333%;
 }
